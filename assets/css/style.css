@@ -95,9 +95,7 @@ a {
 
 #about_Me {
     clear: both;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto 20px auto;
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
@@ -151,7 +149,7 @@ img {
 #about_Portfolio {
     width: 960px;
     min-height: 300px;
-    margin: 10px auto 10px auto;
+    margin: 10px auto 20px auto;
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
@@ -304,9 +302,7 @@ img {
 /* Contact Info */
 #contactMe {
     clear: both;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto 20px auto;
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;

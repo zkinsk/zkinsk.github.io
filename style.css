@@ -1,5 +1,5 @@
 body {
-    width: 600px;
+    width: 900px;
     background: black;
     margin-left: auto;
     margin-right: auto;
@@ -9,19 +9,27 @@ body {
     margin-left: auto;
     margin-right: auto;
     background: black;
+    padding-top: 200px;
 }
-h1, h2 {
-    display: inline-block;
-    font-size: 300%;
+a {
+    text-decoration:none;
+}
+h1 {
+    /* font-size: 200%; */
     text-align: center;
     color: red;
     background: black;
     padding: 40px;
     margin: 40px auto 40px auto;
+    text-decoration: none;
 }
-a:hover {
+h1::first-letter{
     font-size: 150%;
-    text-align: center;
-    margin-left: -30%;
+}
+a>h1:hover {
+    /* text-align: center; */
+    color: orange;
     /* margin-right: auto; */
+    background: rgb(0, 41, 2);
+    
 }
